@@ -1,0 +1,15 @@
+name: Sample
+version: '${version}'
+main: io.github.deopoler.sample.Sample
+api-version: 1.19
+authors: [ Deopoler ]
+description: Kotlin Template Plugin
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.6.21
+  - org.jetbrains.kotlin:kotlin-reflect:1.6.21
+
+commands:
+  check:
+    description: Check command
+    usage: /<command>
+    permission: default
